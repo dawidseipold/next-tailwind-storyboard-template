@@ -1,5 +1,9 @@
 import * as NextImage from 'next/image';
+import { setup } from 'twind/shim';
 import '../styles/globals.css';
+import twindConfig from '../twind.config';
+
+setup(twindConfig);
 
 const BREAKPOINTS_INT = {
   xs: 320,

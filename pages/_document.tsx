@@ -1,3 +1,4 @@
+import withTwindDocument from '@twind/next/shim/document';
 import Document, { Head, Html, Main, NextScript } from 'next/document';
 
 class MyDocument extends Document {
@@ -19,4 +20,4 @@ class MyDocument extends Document {
   }
 }
 
-export default MyDocument;
+export default withTwindDocument(MyDocument);
