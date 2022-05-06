@@ -1,10 +1,10 @@
 import { tw } from 'twind';
+import { NextPageWithLayout } from '../../types/page';
 import { getMainLayout } from '../layouts/Main/MainLayout';
-import { NextPageWithLayout } from '../types/page';
 
 const Home: NextPageWithLayout = () => {
   const styles = {
-    h1: tw`text(blue-500 center)`,
+    h1: tw`text(test center)`,
   };
 
   return (

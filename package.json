@@ -12,7 +12,7 @@
     "npm": "please-use-yarn"
   },
   "scripts": {
-    "dev": "cross-env NODE_OPTIONS='--inspect' next dev",
+    "dev": "cross-env NODE_OPTIONS='--inspect' next dev -p 5000",
     "build": "next build",
     "start": "next start",
     "prepare": "husky install",
